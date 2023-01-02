@@ -1,0 +1,48 @@
+.cl-slide-in-footer-save-btn {
+    font-size: 13px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    margin: 30px;
+    background-color: gray;
+}
+.cl-slide-in-footer-save {
+    font-size: 13px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background-color: teal;
+
+    
+}
+
+.cl-slide-in-footer-save:hover:not([disabled]) {
+    background-color:gray;
+    color: #fff;
+}
+.cl-slide-in-footer-save-btn:hover:not([disabled]) {
+    background-color:teal;
+    color: #fff;
+}
+
+.cl-slide-in-footer-cancel-btn {
+    font-size: 13px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #ff4a4a;
+    font-weight: 600;
+    border: none;
+}
+
+.cl-slide-in-footer-cancel-btn:hover:not([disabled]) {
+    background-color: #ff4a4a;
+    color: white;
+}
+ 
+.navbar {
+    background-color: teal;
+    height: 60px;
+  }
