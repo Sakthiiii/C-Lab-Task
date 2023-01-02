@@ -18,7 +18,7 @@ const SegmentSaver = (props) => {
     }) ?? [];
 
   const onChangeName = (e) => {
-   ;
+   
     setName(e.target.value);
   };
 
@@ -69,7 +69,7 @@ const SegmentSaver = (props) => {
                   <FontAwesomeIcon icon={faCircle} color="#e6e8eb" />
                 </div>
                 <SelectField
-                  key={`select_${value}`}
+                  // key={`select_${value}`}
                   value={value}
                   options={[...availableOptions, { label, value }]}
                   onChange={onChangeEachSchema}

@@ -8,7 +8,7 @@ const AnchorButton = (props) => {
     };
     return <button title={title} disabled={disabled} className={`cl-anchor-button ${className}`} type="button" key={label} onClick={onClickInternal}>
         <span className={`cl-anchor-button-icon-container`}>{icon}</span>
-        <span className={`cl-anchor-button-label-container`}>{children ?? label}</span>
+        <span className={`cl-anchor-button-label-container`}>{children }</span>
     </button>
 }
 

@@ -94,12 +94,12 @@ const Dashboard = () => {
       <SlideIn
         show={showSlideIn}
         header={
-          <React.Fragment>
+          <>
             <span className="cl-slide-in-header-icon">
               <FontAwesomeIcon icon={faAngleLeft} />
             </span>
             <span className="cl-slide-in-header-title">Saving Segment</span>
-          </React.Fragment>
+          </>
         }
         body={
           <SegmentSaver

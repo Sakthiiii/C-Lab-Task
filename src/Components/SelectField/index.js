@@ -20,17 +20,13 @@ const SelectField = (props) => {
         key={value}
         onChange={onChangeInternal}
         className={`cl-select-field ${className}`}
-        placeholder="akjndkajdkjnawkj"
+       
         value={value}
       >
         <option className="cl-select-field-option" value="" hidden disabled>
           {placeholder}
         </option>
-        {/* {options?.length === 0 && (
-          <option className="cl-select-field-option" value="**nodata" disabled>
-            No data available
-          </option>
-        )} */}
+      
         {options?.map((eOption) => (
           <option
             className="cl-select-field-option"
